@@ -198,46 +198,161 @@
 }
 @media (max-width: 768px) {
   .advokat-users-top {
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    gap: 15px; /* Elementlar orasidagi bo'shliqni kamaytirish uchun */
+    gap: 15px;
+    .h5 {
+      font-size: 5.1px;
+      margin: 0;
+      padding: 0;
+      width: 53px;
+      color: #14014b;
+      height: 12px;
+      font-family: Gilroy;
+      text-transform: uppercase;
+    }
   }
 
-  .advokat-users,
+  .advokat-users {
+    width: 96.27px;
+    height: 136.51px;
+    padding-top: 14.81px;
+    padding-left: 22.15px;
+    padding-right: 22.04px;
+    /* padding-bottom: 8.14px; */
+    margin-top: 20.14px;
+    .btn1 {
+      font-family: Gilroy;
+      font-weight: normal;
+      font-size: 3.6px;
+      width: 38.8px;
+      height: 6.67px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 3.34px;
+      border: 0.5px solid #00a455;
+      color: #00a455;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 0;
+      /* margin-left: 95.81px; */
+      margin: 0;
+      margin-left: 6.66px;
+    }
+    a {
+      font-size: 6.59px;
+      margin: 0;
+      padding: 0;
+      font-family: Gilroy;
+      font-weight: normal;
+      color: #8d8d8d;
+      margin-bottom: 1.1px;
+    }
+
+    p {
+      font-size: 6.59px;
+      margin: 0;
+      padding: 0;
+      font-family: Gilroy;
+      font-weight: normal;
+      color: #8d8d8d;
+      margin-bottom: 3.52px;
+    }
+  }
   .advokat-users2 {
-    width: 45%; /* Kenglikni 45% ga o'rnatish, yonma-yon joylashishi uchun */
-    height: auto;
-    margin-top: 20px;
+    width: 124.62px;
+    height: 176.66px;
+    padding-top: 19.3px;
+    padding-left: 28.51px;
+    padding-right: 28.63px;
+    padding-bottom: 10.14px;
+    .rating {
+      width: 56.13px;
+      height: 10.53px;
+      margin-left: 5.62px;
+      margin-bottom: 8.91px;
+    }
+    .h5 {
+      font-size: 5.59px;
+      margin: 0;
+      padding: 0;
+      width: 68px;
+      color: #14014b;
+      height: 12px;
+      font-family: Gilroy;
+      text-transform: uppercase;
+    }
+    .btn1 {
+      font-family: Gilroy;
+      font-weight: normal;
+      font-size: 4.65px;
+      width: 50.03px;
+      height: 8.63px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 3.34px;
+      border: 0.2px solid #00a455;
+      color: #00a455;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 0;
+      /* margin-left: 95.81px; */
+      margin: 0;
+      margin-bottom: 3.52px;
+      margin-left: 8.53px;
+      margin-bottom: 4.54px;
+    }
+    a {
+      font-size: 6.59px;
+      margin: 0;
+      padding: 0;
+      font-family: Gilroy;
+      font-weight: normal;
+      color: #8d8d8d;
+      margin-bottom: 1.17px;
+      margin-left: 10px;
+      width: 62px;
+      height: 8px;
+    }
+
+    p {
+      font-size: 6.59px;
+      margin: 0;
+      padding: 0;
+      font-family: Gilroy;
+      font-weight: normal;
+      color: #8d8d8d;
+      margin-bottom: 3.52px;
+    }
   }
 
-  .user-img1,
+  .user-img1 {
+    width: 52.08px;
+    height: 61.18px;
+    margin: 0;
+    margin-bottom: 4.66px;
+  }
   .user-img2 {
-    margin: 20px auto;
-  }
-
-  h5 {
-    font-size: 14px;
-    margin-bottom: 10px;
+    width: 67.34px;
+    height: 79.1px;
+    margin: 0;
+    margin-bottom: 6.03px;
   }
 
   .rating {
-    margin-bottom: 5px;
+    width: 43.41px;
+    height: 8.14px;
+    margin-left: 4.35px;
+    margin-bottom: 8.91px;
   }
-
-  button {
-    font-size: 12px;
-    width: 100px;
-    height: 20px;
-    margin-bottom: 10px;
-  }
-
-  a {
-    font-size: 14px;
-  }
-
-  p {
-    font-size: 14px;
+  .star {
+    width: 12px; /* Kichik ekranlar uchun kattaroq o'lcham */
+    height: 12px;
+    font-size: 12px; /* Kichik ekranlar uchun yulduz kattaligi */
   }
 
   .button1 {

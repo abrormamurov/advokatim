@@ -95,14 +95,17 @@
   .navlinks {
     display: none; /* By default, the navlinks are hidden */
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     align-items: flex-end;
     align-content: flex-end;
     text-align: center;
+    width: 100%;
   }
 
   .navlinks.show-links {
     display: flex; /* Show navlinks when .show-links class is added */
+    width: 100%;
+    padding: 15px;
   }
   .navlinks.show-links {
     display: flex;
@@ -111,6 +114,14 @@
 
   .menu-icon {
     display: block;
+    width: 15px;
+  }
+  .span-links {
+    border-bottom: 2px solid #ccc;
+  }
+
+  .ad-btn {
+    border-bottom: 2px solid #ccc;
   }
 
   .container-2 {
@@ -134,7 +145,5 @@
 .ad-btn {
   display: flex;
   justify-content: space-between; /* Ensure it spaces out child elements */
-  align-items: center;
   width: 100%; /* Ensure it takes full width */
-  padding: 10px; /* Optional: Add padding to see effects clearly */
 }

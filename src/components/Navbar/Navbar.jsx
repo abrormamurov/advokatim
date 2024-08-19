@@ -9,6 +9,7 @@ import {
 import { IoSearchOutline, IoPersonCircleOutline } from "react-icons/io5";
 import { IoMenuOutline } from "react-icons/io5";
 import "./Navbar.css";
+import { IoIosArrowForward } from "react-icons/io";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,13 +59,41 @@ function Navbar() {
             </button>
           </div>
           <div className={`navlinks ${isMenuOpen ? "show-links" : ""}`}>
-            <NavLink to="/bosh_sahifa">Bosh sahifa</NavLink>
-            <NavLink to="/bosh_sahifa">Top advokatlar</NavLink>
-            <NavLink to="/bosh_sahifa">Advokat Minbari</NavLink>
-            <NavLink to="/bosh_sahifa">Advokatlar</NavLink>
-            <NavLink to="/bosh_sahifa">YURISTLAR</NavLink>
-            <NavLink to="/bosh_sahifa">Xizmatlar</NavLink>
-            <NavLink to="/bosh_sahifa">Fikrlar</NavLink>
+            <span className=" w-full span-links">
+              {" "}
+              <NavLink to="/bosh_sahifa">Bosh sahifa</NavLink>
+              <IoIosArrowForward className="text-white icon" />
+            </span>
+            <span className="border-b-2 border-white flex justify-between w-full ">
+              {" "}
+              <NavLink to="/bosh_sahifa">Top advokatlar</NavLink>
+              <IoIosArrowForward className="text-white" />
+            </span>{" "}
+            <span className="border-b-2 border-white flex justify-between w-full ">
+              {" "}
+              <NavLink to="/bosh_sahifa">advokat Minbari</NavLink>
+              <IoIosArrowForward className="text-white" />
+            </span>{" "}
+            <span className="border-b-2 border-white flex justify-between w-full ">
+              {" "}
+              <NavLink to="/bosh_sahifa">advokatlar</NavLink>
+              <IoIosArrowForward className="text-white" />
+            </span>{" "}
+            <span className="border-b-2 border-white flex justify-between w-full ">
+              {" "}
+              <NavLink to="/bosh_sahifa">YURISTLAR</NavLink>
+              <IoIosArrowForward className="text-white" />
+            </span>{" "}
+            <span className="border-b-2 border-white flex justify-between w-full ">
+              {" "}
+              <NavLink to="/bosh_sahifa">Xizmatlar</NavLink>
+              <IoIosArrowForward className="text-white" />
+            </span>{" "}
+            <span className="border-b-2 border-white flex justify-between w-full ">
+              {" "}
+              <NavLink to="/bosh_sahifa">fikrlar</NavLink>
+              <IoIosArrowForward className="text-white" />
+            </span>{" "}
           </div>
         </div>
       </div>

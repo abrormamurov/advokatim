@@ -29,7 +29,7 @@ function AdvokatlarMinbari() {
                 height={203.93}
                 alt="User"
               />
-              <h5>Voxidov anvarbek mirzobekovich</h5>
+              <h5 className="h5">Voxidov anvarbek mirzobekovich</h5>
               <div className="rating">
                 {[...Array(5)].map((_, i) => (
                   <span
@@ -41,7 +41,7 @@ function AdvokatlarMinbari() {
                   </span>
                 ))}
               </div>
-              <button>Litsenziya faol</button>
+              <button className="btn1">Litsenziya faol</button>
               <a href="tel:">+998 90 123 44 45</a>
               <p className="advokt-users-p">Odil huquq</p>
             </div>
@@ -53,7 +53,7 @@ function AdvokatlarMinbari() {
                 height={263.68}
                 alt="User"
               />
-              <h5>Voxidov anvarbek mirzobekovich</h5>
+              <h5 className="h5">Voxidov anvarbek mirzobekovich</h5>
               <div className="rating">
                 {[...Array(5)].map((_, i) => (
                   <span
@@ -65,7 +65,7 @@ function AdvokatlarMinbari() {
                   </span>
                 ))}
               </div>
-              <button>Litsenziya faol</button>
+              <button className="btn1">Litsenziya faol</button>
               <a href="tel:">+998 90 123 44 45</a>
               <p>Odil huquq</p>
             </div>
@@ -77,7 +77,7 @@ function AdvokatlarMinbari() {
                 height={203.93}
                 alt="User"
               />
-              <h5>Voxidov anvarbek mirzobekovich</h5>
+              <h5 className="h5">Voxidov anvarbek mirzobekovich</h5>
               <div className="rating">
                 {[...Array(5)].map((_, i) => (
                   <span
@@ -89,7 +89,7 @@ function AdvokatlarMinbari() {
                   </span>
                 ))}
               </div>
-              <button>Litsenziya faol</button>
+              <button className="btn1">Litsenziya faol</button>
               <a href="tel:">+998 90 123 44 45</a>
               <p className="advokt-users-p">Odil huquq</p>
             </div>
@@ -98,7 +98,7 @@ function AdvokatlarMinbari() {
             </button>
           </div>
           <div className="flex justify-center">
-            <Link className="advotaklar-list ">Barchasini ko‘rsatish</Link>
+            <Link className="advotaklar-list ">Barchasini ko‘rsatish </Link>
           </div>{" "}
         </div>
       </div>
