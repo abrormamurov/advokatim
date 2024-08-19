@@ -229,7 +229,7 @@
 
   .advokat-users {
     width: 96.27px;
-    height: 136.51px;
+    height: 146.51px;
     padding-top: 14.81px;
     padding-left: 22.15px;
     padding-right: 22.04px;
@@ -254,16 +254,15 @@
       /* margin-left: 95.81px; */
       margin: 0;
       margin-left: 6.66px;
+      margin-bottom: 3px;
     }
-    a {
+    p {
       font-size: 6.59px;
       margin: 0;
       padding: 0;
       font-family: Gilroy;
       font-weight: normal;
       color: #8d8d8d;
-      margin-bottom: 1.1px;
-      margin-top: -50px;
     }
 
     p {

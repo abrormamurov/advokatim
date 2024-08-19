@@ -59,7 +59,7 @@ function Navbar() {
             </button>
           </div>
           <div className={`navlinks ${isMenuOpen ? "show-links" : ""}`}>
-            <span className=" w-full span-links">
+            <span className=" border-b-2 border-white flex justify-between w-full">
               {" "}
               <NavLink to="/bosh_sahifa">Bosh sahifa</NavLink>
               <IoIosArrowForward className="text-white icon" />
