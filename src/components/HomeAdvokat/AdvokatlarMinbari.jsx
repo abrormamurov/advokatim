@@ -42,7 +42,9 @@ function AdvokatlarMinbari() {
                 ))}
               </div>
               <button className="btn1">Litsenziya faol</button>
-              <a href="tel:">+998 90 123 44 45</a>
+              <p className="mt-5 pt-5" href="tel:">
+                +998 90 123 44 45
+              </p>
               <p className="advokt-users-p">Odil huquq</p>
             </div>
             <div className="advokat-users2">
@@ -211,10 +213,6 @@ function AdvokatlarMinbari() {
                   yozish.
                 </p>
                 <h5>Vohidov Anvarbek</h5>
-                <Link
-                  href="link-to-read-more"
-                  className="read-more-link"
-                ></Link>
               </span>
             </div>
           </div>
