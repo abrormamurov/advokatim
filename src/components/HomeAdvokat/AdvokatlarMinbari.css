@@ -1,0 +1,563 @@
+.container-adv {
+  background-image: url("/public/img/topographic-map-design-vector\ 1.png");
+}
+
+.top-advokatlar {
+  padding-bottom: 54.08px;
+  h2 {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 72px;
+    color: #c18f59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 52px;
+    margin-bottom: 42.15px;
+  }
+}
+
+.user-img1 {
+  margin-top: 49.38px;
+  margin-left: 73.84px;
+  margin-right: 73.45px;
+  margin-bottom: 15.54px;
+}
+
+.user-img2 {
+  margin-top: 63.84px;
+  margin-left: 95.48px;
+  margin-right: 94.97;
+  margin-bottom: 20.1px;
+}
+
+.advokat-users {
+  background: #f8f8f8;
+  width: 320.9px;
+  margin-top: 67.15px;
+  height: 455.05px;
+  border-radius: 10px;
+
+  h5 {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 16.99px;
+    margin-left: 73.65px;
+    width: 174px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 4.16px;
+  }
+  button {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 12px;
+    width: 129.67px;
+    height: 22.24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 11.12px;
+    border: 1px solid #00a455;
+    color: #00a455;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 95.81px;
+    margin-bottom: 11.71px;
+  }
+  a {
+    font-family: Gilroy;
+    font-size: 16.99px;
+    font-weight: normal;
+    color: #8d8d8d;
+    margin-bottom: 3.65px;
+    margin-left: 85.65px;
+  }
+}
+.advokt-users-p {
+  font-family: Gilroy;
+  font-size: 16.99px;
+  font-weight: normal;
+  color: #8d8d8d;
+  padding-bottom: 27.13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advokat-users2 {
+  background: #f8f8f8;
+  width: 414.92px;
+  height: 588.37px;
+  border-radius: 10px;
+  margin-bottom: 45.14px;
+
+  h5 {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 21.97px;
+    width: 224px;
+    height: 52px;
+    margin-left: 95.22px;
+    text-align: center;
+    margin-bottom: 5.1px;
+  }
+
+  button {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 15.52px;
+    width: 167.67px;
+    height: 28.76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 11.12px;
+    border: 1px solid #00a455;
+    color: #00a455;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 123.88px;
+    margin-bottom: 15.14px;
+    margin-top: 13.14px;
+  }
+  a {
+    font-family: Gilroy;
+    font-size: 21.97px;
+    font-weight: normal;
+    color: #8d8d8d;
+    margin-bottom: 4.58px;
+    margin-left: 103.82px;
+  }
+  p {
+    font-family: Gilroy;
+    font-size: 21.97px;
+    font-weight: normal;
+    color: #8d8d8d;
+    margin-bottom: 3.65px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10.16px;
+}
+
+.star {
+  font-size: 30px;
+  color: #ccc; /* Pastel rangdagi yulduzlar (bo'sh yulduzlar) */
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star.selected {
+  color: #ffac4d; /* Tanlangan yulduzlar sariq rangda bo'ladi */
+}
+
+.advokat-users-top {
+  display: flex;
+  gap: 61.64px;
+  justify-content: center;
+}
+
+.button1 {
+  width: 64.25px;
+  height: 64.25px;
+  border-radius: 50%;
+  background-color: #0a76db;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Gilroy;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 250px;
+}
+
+.advotaklar-list {
+  font-family: Urbanist;
+  font-size: 31.64px;
+  font-weight: normal;
+  text-align: center;
+  background: #0a76db;
+  padding-top: 14px;
+  padding-left: 68.67px;
+  padding-right: 68.25px;
+  padding-bottom: 13px;
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 54.08px;
+}
+@media (max-width: 768px) {
+  .advokat-users-top {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Elementlar orasidagi bo'shliqni kamaytirish uchun */
+  }
+
+  .advokat-users,
+  .advokat-users2 {
+    width: 45%; /* Kenglikni 45% ga o'rnatish, yonma-yon joylashishi uchun */
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .user-img1,
+  .user-img2 {
+    margin: 20px auto;
+  }
+
+  h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    margin-bottom: 5px;
+  }
+
+  button {
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .button1 {
+    display: none; /* Telefon variantda back va forward tugmalarni yashirish */
+  }
+
+  .advotaklar-list {
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* BIZNING NATIJALAR */
+.bizning-natijalar {
+  background-image: url("/public/img/bizningnatijalar.png"); /* Tasvirning yo‘li */
+  height: 479px;
+  background-color: #262626; /* Rang */
+  background-size: cover; /* Tasvirning to‘liq ko‘rsatilishini ta’minlash */
+  background-position: center; /* Tasvirni markazlashtirish */
+  background-repeat: no-repeat; /* Tasvirning takrorlanmasligini ta’minlash */
+
+  h2 {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 72px;
+    padding-top: 43px;
+    padding-bottom: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 47px;
+}
+
+.card {
+  width: 254px;
+  height: 221.97px;
+  background: #fff;
+  display: flex;
+  justify-content: center; /* Gorizontal markazlashtirish */
+  align-items: center;
+  flex-direction: column;
+  img {
+    margin-top: 36.41px;
+  }
+  h3 {
+    font-family: Martel;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 20.74px;
+    margin-bottom: 12px;
+
+    color: #252b42;
+  }
+  p {
+    font-family: Martel;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #737373;
+  }
+}
+
+/* ADVOKAT MINBARI */
+.advokat-minbari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.advokat-minbari::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/public/img/topographic-map-design-vector\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.advokat-minbari h2 {
+  margin-top: 56px;
+  margin-bottom: 40px;
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #c18f59;
+  z-index: 1; /* Matn yuqorida turishi uchun */
+}
+
+/* Boshqa stillar */
+.user-card {
+  display: flex;
+  gap: 41.7px;
+}
+
+.user1 {
+  border-radius: 4px;
+  width: 457.8px;
+  background-image: url("/public/img/conrtact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.user1 .span-con {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 81.59px;
+  height: 81.59px;
+  background-color: #c18f59;
+  border-radius: 50%;
+  margin-top: -40px;
+  z-index: 1; /* Span elementi yuqorida turishi uchun */
+}
+.hover-text {
+  width: 421.54px;
+  height: 139px;
+  background: #0866be;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 262.89px;
+  border-bottom: 6px solid #c18f59;
+  margin-bottom: 40px;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #0866be 50%, #c18f59 50%);
+  background-size: 100% 200%;
+  background-position: top;
+}
+
+.hover-text::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 15px 15px 15px; /* Tepaga qarash uchun yuqorisi 0 qilinadi */
+  border-style: solid;
+  border-color: transparent transparent #c18f59 transparent; /* Faqat pastki qismi rangli bo'ladi */
+  opacity: 0;
+  transition: opacity 0.3s, top 0.3s ease-in-out;
+}
+
+.hover-text:hover::before {
+  top: -15px;
+  opacity: 1;
+}
+
+.hover-text:hover {
+  background-position: bottom;
+}
+
+.hover-text p,
+.hover-text h5 {
+  font-family: Urbanist;
+  color: #fff;
+  margin: 0;
+}
+
+.hover-text p {
+  font-weight: normal;
+  font-size: 23.27px;
+  margin-bottom: 10px;
+}
+
+.hover-text h5 {
+  font-weight: bold;
+  font-size: 27.29px;
+}
+
+.hover-text:hover p,
+.hover-text:hover h5 {
+  display: none;
+}
+
+.hover-text:hover::after {
+  content: "O‘QISH UCHUN O‘TING →";
+  display: block;
+  font-family: Urbanist;
+  font-size: 23.27px;
+  color: #fff;
+  text-align: center;
+  line-height: 139px;
+}
+
+.hover-text:hover a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hover-text p,
+.hover-text h5 {
+  font-family: Urbanist;
+  color: #fff;
+  margin: 0;
+}
+
+.hover-text p {
+  font-weight: normal;
+  font-size: 23.27px;
+  margin-bottom: 10px;
+}
+
+.hover-text h5 {
+  font-weight: bold;
+  font-size: 27.29px;
+}
+
+.hover-text:hover p,
+.hover-text:hover h5 {
+  display: none;
+}
+
+.hover-text:hover::after {
+  content: "O‘QISH UCHUN O‘TING →";
+  display: block;
+  font-family: Urbanist;
+  font-size: 23.27px;
+  color: #fff;
+  text-align: center;
+  line-height: 139px;
+}
+
+.hover-text:hover a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* XIZMATLARIMIZ */
+.xizmatlarimiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/public/img/bizningnatijalar.png");
+  background-color: #262626; /* Rang */
+  padding-bottom: 73.33px;
+
+  h2 {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 72px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+}
+.button-personal {
+  background: #0866be;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 30.1px;
+  padding-right: 29.78px;
+  border-radius: 4.41px;
+  color: #fff;
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.btnn {
+  display: flex;
+  gap: 88.02px;
+}
+
+/* HAMKORLARIMIZ */
+
+.hamkorlarimiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/public/img/topographic-map-design-vector\ 1.png");
+  h2 {
+    font-family: Gilroy;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    font-size: 72px;
+    color: #c18f59;
+  }
+}
+
+.ichki {
+  display: flex;
+  gap: 3px;
+  border: 2px solid black;
+  width: 480.5px;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 204.22px;
+  h4 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 19.37px;
+    color: black;
+  }
+}
+
+.ichki-ishlar {
+  display: flex;
+  gap: 7.5px;
+}
